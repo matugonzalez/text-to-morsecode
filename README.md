@@ -2,9 +2,9 @@
 morse code translator, both visuall and by text.
 
 ## Checklist
-- [ ] Make thing translate
+- [x] Make thing translate text to morse
+- [x] Make thing translate code to text
 - [ ] Make thing able to show visually morse code
-- [ ] Make use able to translate backwards
 - [ ] make thing able to understand visually morse code 
 
 ---------
