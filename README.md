@@ -1,5 +1,8 @@
 # Text to morse code
-morse code translator, both visuall and by text.
+morse code translator, both visual(not rn) and by text.
+
+i mean it does what it says it does. 
+`.... . .-.. .-.. ---  .-- --- .-. .-.. -..`
 
 ## Checklist
 - [x] Make thing translate text to morse
@@ -8,4 +11,5 @@ morse code translator, both visuall and by text.
 - [ ] make thing able to understand visually morse code 
 
 ---------
-this is [what i learned](whatILearned.md)
+
+this is [what i learned](./docs/whatILearned.md)
