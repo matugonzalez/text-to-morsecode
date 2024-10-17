@@ -1,5 +1,7 @@
 import { useState } from "react"
 import Textarea from "./components/Textarea"
+import Title from "./components/Title"
+import LightModule from "./components/LightModule"
 import {convertToCode, convertToText} from "./utils/utils"
 
 function App() {
@@ -29,6 +31,7 @@ function App() {
 
     return (
         <div className='bg-gray-900 h-screen grid place-items-center'>
+            <Title/>
             <div className='max-w-xs flex flex-col gap-4'>
                 <span className='text-blue-50'>Enter your text</span>
                 <Textarea
@@ -47,7 +50,6 @@ function App() {
                     <span className='text-blue-50'>1 space to finish a letter, 2 spaces to finish a word</span>
                 </div>
             </div>
-            <span className='absolute top-0 left-0 p-4 text-5xl'>🤖</span>
         </div>
     )
 }
